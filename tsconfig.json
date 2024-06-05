@@ -6,7 +6,9 @@
         "strict": true,
         "esModuleInterop": true,
         "sourceMap": true,
-        "forceConsistentCasingInFileNames": true
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "noImplicitAny": false
     },
     "include": [
         "src/**/*.ts",
@@ -16,5 +18,8 @@
         "node_modules",
         "dist",
         "bin"
+    ],
+    "files": [
+        "custom.d.ts"
     ]
 }
